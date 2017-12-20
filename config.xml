@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.hybridapps.mobionic" version="2.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Sweat Brand</name>
+  <name>Forbooks</name>
   <description>
-    An app for Africa's very own sports brand
+    Student trading
     </description>
   <content src="index.html" />
   <access origin="*" />
