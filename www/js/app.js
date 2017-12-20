@@ -8,7 +8,27 @@ angular.module('mobionicApp', ['ionic', 'mobionicApp.controllers', 'mobionicApp.
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function () {
 
-         
+        // Add the following to your existing ready fuction.
+
+        constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+            platform.ready().then(() => {
+                statusBar.styleDefault();
+                splashScreen.hide();
+
+                // OneSignal Code start:
+                // Enable to debug issues:
+                // window["plugins"].OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+
+                var notificationOpenedCallback = function(jsonData) {
+                    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+                };
+
+                window["plugins"].OneSignal
+                  .startInit("YOUR_APPID", "YOUR_GOOGLE_PROJECT_NUMBER_IF_ANDROID")
+                  .handleNotificationOpened(notificationOpenedCallback)
+                  .endInit();
+            });
+        }         
 
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
