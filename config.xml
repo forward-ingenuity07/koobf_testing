@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿s<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="ForBooks" version="2.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>ForBooks</name>
   <description>Buying and selling of books for students, by students, accommodation features e.t.c
@@ -80,5 +80,5 @@
   </platform>
   <plugin name="cordova-plugin-whitelist" version="1.3.3" />
   <plugin name="phonegap-plugin-push" version="2.1.2" />
-  <plugin name="onesignal-cordova-plugin" version="2.2.4" src="https://github.com/OneSignal/OneSignal-Cordova-SDK" />
+  
 </widget>
