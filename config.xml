@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="mobionicAPP" version="2.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="ForBooks" version="2.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>ForBooks</name>
-  <description>
-    Student trade
+  <description>Buying and selling of books for students, by students, accommodation features e.t.c
   </description>
   <content src="index.html" />
   <access origin="*" />
